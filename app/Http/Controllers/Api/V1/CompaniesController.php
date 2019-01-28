@@ -8,6 +8,7 @@ use App\Http\Controllers\Controller;
 
 class CompaniesController extends Controller
 {
+    
     public function index()
     {
         return Company::all();
