@@ -9,7 +9,7 @@
             <div class="panel-body">
                 <table class="table table-bordered table-striped">
                     <thead>
-                    <tr>
+                    <tr style="background: #7B3F00; color: white;">
                         <th>Name</th>
                         <th>Address</th>
                         <th>Website</th>
@@ -18,7 +18,7 @@
                     </tr>
                     </thead>
                     <tbody>
-                    <tr v-for="company, index in companies">
+                    <tr style="background: black; color: white;" v-for="company, index in companies">
                         <td>{{ company.name }}</td>
                         <td>{{ company.address }}</td>
                         <td>{{ company.website }}</td>

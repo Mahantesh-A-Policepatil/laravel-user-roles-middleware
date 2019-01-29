@@ -23,6 +23,9 @@ Route::group(['middleware' => ['auth', 'role:Admin'], 'prefix' => 'admin', 'as' 
     Route::get('companies', 'CompaniesController@index')->name('companies.index');
 });
 
+Route::group(['middleware' => ['auth', 'role:Superadmin'], 'prefix' => 'admin', 'as' => 'admin.'], function () {
+    Route::get('superadmin', 'SuperAdminController@index');
+});
 
 Auth::routes();
 
