@@ -14,7 +14,7 @@
                         <th>Address</th>
                         <th>Website</th>
                         <th>Email</th>
-                        <th width="100">&nbsp;</th>
+                        <th>Actions</th>
                     </tr>
                     </thead>
                     <tbody>
